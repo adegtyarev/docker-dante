@@ -1,0 +1,10 @@
+dante:
+    image: dante
+    command: sockd-username
+    environment:
+        SOCKD_USER_NAME: $SOCKD_USER_NAME
+        SOCKD_USER_PASSWORD: $SOCKD_USER_PASSWORD
+    ports:
+        - $SOCKD_PORT:1080
+    volumes:
+        - ./sockd.conf:/etc/sockd.conf
