@@ -1,5 +1,5 @@
 dante:
-    image: dante
+    image: adegtyarev/dante
     command: sockd-username
     environment:
         SOCKD_USER_NAME: $SOCKD_USER_NAME

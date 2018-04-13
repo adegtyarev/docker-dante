@@ -16,8 +16,8 @@ The image is ready to run Dante server or client in a Docker environment:
     $ docker run --rm adegtyarev/dante sockd -v
     Dante v1.4.2.  Copyright (c) 1997 - 2014 Inferno Nettverk A/S, Norway
 
-Should you run a private SOCKS server with simple auth using Docker Compose,
-create file `.env` with the following content:
+Should you run using Docker Compose a private SOCKS server with simple
+username/password auth, create file `.env` with the following content:
 
 * *SOCKD_PORT*: the port to listen to
 * *SOCKD_USER_NAME*: the username to be used by clients
@@ -30,7 +30,7 @@ For example:
     SOCKD_USER_NAME=user
     SOCKD_USER_PASSWORD=password
 
-Run a new container:
+Start a new container:
 
     docker-compose up -d
 
