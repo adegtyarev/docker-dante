@@ -7,6 +7,7 @@ related standards.
 
 * Base image: Alpine Linux
 * Dante version: 1.4.2
+* [![](https://images.microbadger.com/badges/image/adegtyarev/dante.svg)](https://microbadger.com/images/adegtyarev/dante "the download size and the number of layers")
 
 ## Usage
 
