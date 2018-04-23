@@ -21,7 +21,7 @@ The image is ready to run Dante server or client in a Docker environment:
 Should you run using Docker Compose a private SOCKS server with simple
 username/password auth, clone this project and create a settings file:
 
-    $ git clone git@github.com:adegtyarev/docker-dante.git
+    $ git clone https://github.com/adegtyarev/docker-dante.git
     $ cd docker-dante
     $ vim .env
 
