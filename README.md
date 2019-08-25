@@ -28,14 +28,14 @@ username/password auth, clone this project and create a settings file:
 Set the following parameters:
 
 * *SOCKD_PORT*: the port to listen to
-* *SOCKD_USER_NAME*: the username to be used by clients
+* *SOCKD_USER_NAME*: the username to use by clients
 * *SOCKD_USER_PASSWORD*: the password
 
 For example:
 
     $ cat .env
     SOCKD_PORT=1080
-    SOCKD_USER_NAME=user
+    SOCKD_USER_NAME=username
     SOCKD_USER_PASSWORD=password
 
 Start a new container:
