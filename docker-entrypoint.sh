@@ -13,7 +13,7 @@ case $1 in
             exit 1
         fi
 
-        adduser -D $SOCKD_USER_NAME
+        id $SOCKD_USER_NAME || adduser -D $SOCKD_USER_NAME
 
         echo $SOCKD_USER_NAME:$SOCKD_USER_PASSWORD |chpasswd
 
